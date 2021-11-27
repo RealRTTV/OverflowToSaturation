@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "overflowtosaturation",
+  "version": "${version}",
+
+  "name": "Overflow to Saturation",
+  "description": "Makes it so when you eat food, the hunger value which may be cut off is instead turned into saturation",
+  "authors": [
+    "RTTV",
+    "thecolonel63 - arithmetic help"
+  ],
+  "contact": {
+  },
+
+  "license": "CC0 1.0",
+  "icon": "assets/overflowtosaturation/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ca.rttv.overflowtosaturation.OverflowToSaturation"
+    ]
+  },
+  "mixins": [
+    "overflowtosaturation.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "*",
+    "java": ">=16"
+  },
+  "suggests": {
+  }
+}

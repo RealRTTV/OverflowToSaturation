@@ -1,0 +1,42 @@
+{
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2021-11-26 23:02:42 -0500",
+      "baked_potato": "2021-11-26 23:25:17 -0500",
+      "potato": "2021-11-26 23:24:49 -0500",
+      "golden_carrot": "2021-11-26 23:00:18 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2021-11-26 23:24:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2021-11-26 23:00:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2021-11-26 23:24:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2021-11-26 23:24:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2021-11-26 22:59:47 -0500"
+    },
+    "done": false
+  },
+  "DataVersion": 2730
+}

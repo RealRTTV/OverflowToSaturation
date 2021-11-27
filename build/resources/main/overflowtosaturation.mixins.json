@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ca.rttv.overflowtosaturation.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "HungerManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
